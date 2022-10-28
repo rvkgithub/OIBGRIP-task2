@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF8">
+    <title>Portfolio website</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="portfolio.css">
+    <style>
+        body{
+            background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUWFRYSEhUYGBgaHBgYGBgYGBgYGBgYGB4cGRgYGBgcIS4lHB4rIRgYJjgmKy8xNTU1GiQ7QDszPy40NTEBDAwMEA8QGhESGjQhISE0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDE0NDQ0NDQ0NDQ0NDQxNDQ0MTQ0NDQ0NDE0NDQ0NP/AABEIALcBEwMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAACAwAEBQEG/8QAPhAAAgECAwUFBQcDAwQDAAAAAQIAAxEEITESQVFhcSKBkbHBBRMycqEUQlKCstHwBmLhI5LCM1Oi8RVD0v/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAeEQEBAQABBAMAAAAAAAAAAAAAAREhEjFBUQJhcf/aAAwDAQACEQMRAD8A2SIOFGTfPU/W8sJS1Y6ekz/6Xx32mk1QIU7bkAm91cl1N+jW6gzlK3V4CVqg7a/K/mkvulpTqjtr8r+aTQF5xjGFcjCp0SZKKFE7TubEdmnr1eGoYbV8+H7GJwmOVsXVwoVgURLvls7Vmci2vwuM+IM0cTSytxy8ZDVesOx3p+pZYYRVZex3p+pZZcTSK7LnFVV7SfMf0PLipM3217RShUw6OrMajtbZtkqowZjc7ttTbheBZrDsnofKNCxuIoEBuhndjOIEeyh2U+WaVpn+yx2U+WaSrARiPgqfI36THkZSt7arrQw9es99lUsbC5JayKB1ZlHfLWEqLUpJVS4V1uAwsRuIPMEEd0I4BAofHU6r+kRziJo/G/Vf0iaDjF216nzMZaMSiTpx9YFDD6N87/qMeZS/p/2jTxKVGo7RC1HB2lK3BZtlhyNjzyzAl91mRWcdtPzeUYYDjtp+byjCIUAiGH+p+QfqMvUqV5lriahxzYf3J2Aij3nazYhqnC1rKV6kdJdF5liK47D9JfrU7ShihZW6SBzCdkPrHIl5pFHGDOn84/S8O0qf1NjzhzhgKZcvUYnO2yiKS50OdjlumvWw1plVOSM2ZIG17KwoZlvp+2c1vaGGXZBAAtlkANf/AFMrB1NmxEt1sUWyJmZOLCsbE0c5i4qtTXEUqLOod0cqhOZF1APK5DAX1sbaT04p7Rkqf0nh6lVMW6t71FCIQ1lCqxqL2fmJ7jNDCejL+Bw97Szi8NYzuGymbzFbTezkCkBV2rC7bI2iRxOvKeYx2H7Q7z6es3zjWI2b7u+ZtQbRJlSPO+03WnS26jKq7SDaY2Fyy5fzhLb0d81cT/TFLFoqVi4VHWoNgqLstwASQcszpaMrezhTVaa3sgVFJtcqosCbb7AR40ZmGo3M9JhPZVJlDVKaMc9ksqsVByNiRleY9FbTUoY5lFha3PdHa6M32vhdnbHI+UotQzmnj32g1+B8of8A8YKqPSYkB1ZSVtcBgQSLgi+e8ROB5/2NstTR0ZXUrkykMDY2NiOYmpSpZyx7K/pqng6Yo0mdk1u2yTcKqn4QPwg9SekP3djKLdH2ZTqoyVUR0NtpGUMpsQVuDlkQD3CHi8EqjZRQq2NlUWAvmcupJ74WDxGzedxdbaB6GPCMerRzlLDWL1VDAspTaUEErdARtDdebqUrmUMB/SKUK1fEq7s1YuzKQtl2ypsCNw2LDqYCQmc1MDh7kCIqUrGW8LUsby0Sn7Dw9BLYeklMG1wgtfMkfVm/3GZmJo5zdr4q4tM9kuZL30YdZO2gJFzt2F8zYXNhvhslpZx39HrXxNHGGoVNEAKgUEEhw5a98rgbPSWMVhrRqhwKT0hpDY2d1v8AM85h2tL5xZ2bXygU8bS4TA9tYhKNJ6lViF7KiwLEsxsqgDMkz0j5mFU9i0a6ha6baqyuBdh20N1PZIvbhpE9DDpBWVXQhlYK6sNGVgGUjkQQZoYWlnLdf2elJQiCyoqqo3BVUKoF+AFu6LpCxlg2sFSAW/H0mX7SoAE2lhMSRax/lpWxL3kGTsSQzJNA6bxgfPuldJCxv3fvMjRw5zmrTxgCjKefSo3KW0qZR+DuLa+cqAxlZ5XMdg9X17vWdWID2J7vWMV4GzgcQAtiOcRjqm0bytRfKSo8uCswhLONIJUcraN8p8pq4Orsm5mVU+Fuh8paDyYNCviQ2Q0z8pnVjnO7eY/m4xbmMBU31/m6G75GVqepjWOR6GUXsO1jL9SuLGZSPGF4CcSc4lXhVGiIFkPG0tZWWNVoGvTrALnumXjWub8YW3K9ZryUVTC2pxlktKLCGaGExFstZnIIaPJRYx9a4Y8j5Sm2s7iG7LdD5QW1MQEX06+hi6z5TjDTr6GBUlUi8kCSAxROEdruHrGos5s59w9ZKIix6aQVWNRcpAqpK5Ms1B6Su0tQI1Pd6w1gjXw9YSyRVikcobQKWghON00gSJFEHY5mGggBVHZb5W8o4iLq/C3Q+Ua0AScx19DBaGdf5wMFhABNT/N0aYtNTDbQ9DAaDO3iwTy+phqDvt4f5gLeL3xziKMA0EMTghwBYxbGGYBEAAIezIojAIEAkAhWktrATVHZbofKEVnai9k9D5RmxArsNP5uMVVEa6Ntgi2znfiDbK3LWBVEmqpyQ7TkgsIsIJmeg9Z1IQ18PWaR1VhqMvGRZN3jAS+nhK7CWH0t0iWEAFGfh6xgWCozPQesZaZDKWkJpKYyhMJoBIu/r6CQyLv6+ggcrfC3Q+UaYuqOy3Q+UnvDw+v+IBHUfzcZxoIY3GX15GdYwBTfD3GLU6xl8oDFEMCAIYgAwix6nzjHix6nzgEf284yLb9oV4HDBaGf39IJgRIyCghGAYkAnROqIAsmR6HyhgTraQFXIa6DeYAONOvoYmoI1xa3XiTuMTUaBX2ZyTanIDlhA59w9YCmED5D1gOWFAUzoOUBNT9vOKMZUPp5xcDqoCcwIful4DwE4saYHaYyhNOU9J1oAGRZxoCtr1/aAbnI9DBvBdsj0MEvALazH83GdJidrMfzcYe1AJTmYd8olb3NrQ2LWOmh4wLAjBFqYcAakSD5nzjXMQD5nzgMvDEWDDvA6dfH0kM5fyPpJAKnDYRaVBxHiIZccR4iA0TqwQZ1TANoJnTAZoCax06+hleo0ZWbTr6GVnaAu8kC8kKtCd39w9YCmFfPw9YQ0Gcvl4+cHagg5eMDlRvTzggwGaRTAehjDFIYd4DE0nHMFDBdoEcxSva+uvA8BIzxaNr1MDtSpkddDuM4Wi6r5HpA24DlOcMGKRowQGIYR+E9D5QFhMeyeh8oFlYV4CQiYAOYoHzPnCcxAfzPmZLQ3a9ITNE7XpGMdJFMvp0PpJtRRb19JLy6h1E+vmYwvKyP5nznWf0840Ww0JWiQ06jSh0VfIdBDvFFsh0gV650HP0MQ6nj9Iyq2a9T5GLZoCNg8fp/mSFeSA5TDJiFaGTAJTOFoBaCzQIzSI0UxkRoFtWjA0rq0INAcGgFs4AaAzZwIzxaPkepkJi1OvUzITjXa1k1O87hvhEwauhkWGlmjrLEq02tnGe9/ljLqYsLCc9luh8oim94Tt2T0PlHhFtDDJ/nhEI8gfPuPpJqu1DKynXq3mY12lRX16nzMUh5b0jC0q7cZtRCmM/rObUS76QSxgPV/M+c7t6dR5yqr+vnDD6dRJCr6vD27bielvUyqrxivNoeah/Cf/H94DvAepwiKlSBx2zXqf0mcfj19P2iHfNep/S06akA5InbkgMRo0tK6GNvAImLYzpMBjAAmRGgkwbzKrKNDDRKGHeA1TlFsc5FbKLZs5pBExSHXqZ1mig3mZlUqHI9DOpFu2R6GGhgPGkK8UGykLxVOR5HfI9D5RCP5zjtkeh8oRcDwlfPuPpKXvJ1KmfcfSRVp3lUA557zu59Z13ikfzPnKhljcZi3T/MYXitqcLwDdtO+B7yAWgsYU5bfU+c6z2+nnKyvbxPnOO/p5wL4qToqSkKk7twyuvVialSV3qRTVoU5qma9T+kzr1JS28x1PkYbPfIwh/vRJKnj4SQrb9w2rDZHAepO7wjkpkiyIepuB3k5nqLy8gQdpjc7iSCb8huPICOQM2SCx/E9z37AsT3kThL9t1njBmx22y32yA6sc/qIK0wR2FJHEjZHK1xf6W5zXXBDViXIzu2g6KMh11inqg/ANr+4myeOd+7xE1uIyjgN79T91R6nvPhBJByprf+61l7t7d2XOX2w20QajbR3C2yt/l3d5JkeqBkg2muRsq2Ytldvwjr9ZjqaxSp4IntNe/OygcbLoOpuZw02Y2prlvYjK39v4uuQ5nSaFLDsx2qh6JmFB5nVupt0EdiH2BckAbrC+0ToAL5nzjTGamDsOfM5n6ZDu7otaJf4cl/HbX5P/0e7loU8I79qr2V/Bfdxc7/AJR330FpqeW/6ZcO/lLtRmNhFUbNv51MzjSLm6KdgEZ7nI4b9m+/fluvfQfDmqWztTBIOoL7JIIFvu8Tv0G+WzSIsptuy4COpcZrUToVz6AeM5hcKzNtn4RdVFgLnQueIvkPzHeJZxVUi1NdSLki/YQfE3I7gbHUm2RmhRpjZAtYWsOgy6WtEvssUzhltmulycuN7CVMPhQWdwLgsyKLabHZNx8+33Ca2KrhEdx2mAJC/ic5KvK52ROYHC7FNaYIYgWvptE5Frbr5mXZWVI4YcBbkBwlfAUAVNxftOMxe3bbfNtqWVrd3ff0lL2ZTOy3z1N4/wC4/qY1cJrYFTcW1GvI30/nCVsGCyC6ZrdGIFu0h2TkNxIvNo0Qcs9bbhY/wTOwdJlq1E0BAcX0uOw4XpZCebdZLSRUxWFYiy5G9wSLi4zF/wC3iOELCoHQNs23MpAurD4lNhqOO/IzV90czlkc+l9ee+UMTemwqAdhgquAbEEXVHuf9p5WP3YlXC6+B3oLML2vow3qRvPPdzzBZRVXAKqOhWxU2zU8P5a4zlyk975EHuy4Gxz5XicUna95TsrAAZnsuAfgYcczY7o6oYp1vZ5vt09dGU2s3T8LZdDy1ilVWGnIggAqeBHGbNGqHG0pGuYNweh4NfIjl0uOLwIYbS9ltzDeNQDptDllyIi0jFOEdRdVDCxspsCN+ROvQ+Ik92r37OhtpZgd1xkRytNBWN9lxZrabR7QH3kOQOvIjllF1aIbO5B/ECQRv3iwHI5aSbVwgUCuqhh3bQ5g5A/TvjKeFRvh+IdxHIgjzE6MSyD/AFLWGQcEActrh5c87R7UtrPeMwwuCOh3dI6kxWqYZxc7AccrA927690q/Ztq+xcNw2Rkd20pGX0mmGdfjG2NzLbbHzJv6jwnfcI/aGe66mxHLcVPhGmMv7OfvpfmAB9P890NMIn3MuWRHeGzH0lxqTjINtjTtWDD830z14wl2WyIsRfssNkju39QTLq4pe4b8KHuI+mdpJe+zH8Z8V/5C/jJLqY0sJh0TQG/Em5/3HyGUa2NX4admO8g9kHgXzueQBPKYmyWzqvl+BL7Gtu0dW1tnkeG6WzW2ALXO4KBkLZ3PEC2g4zG4t+Or3uS3/Uba/t+FP8AbvHUnfCxDqq9ogHdna27XdM+pjyP9On230N8gp37bZi/9oz00iaVEg7dRi78TovyLuHPW2/KNMWW7ejbCjM3yc2sQc/g6nPPQS1h0prkoF8yc7kneWJzN+Jz4yota1ssxv8A2/eV6mLZyadOx/ExF0S27L42v93dvtoYLlSqA2wLOx+FbDptZ3CqNC2nC5No7C4IA+8qdpuIFlQHco421bU8hlBwgVFyuSdWObORxO/poNOjftA1OQ6+PdxO+WSRm6cDqTkBpn4nl1mZttV2kpvZAxVnsbsfvomeVs7tlwHKvicSazGmjEUlNqjrYF3H/wBSHdb7zDTQZ32bKVQFVFAC2+7kFQWztuGVgOg3GVcPIUAKuQHw5cB8VhlsjIADlyi8RiERWqNfZXMixJJBsFA3sWFuZ7oLVlGYGfDU8Ao4agdSeEy3qbdQMvwUnBe3wvVGuW8IMhz5rCruCwp7b1PjfZL2v2bA2Qf2qptzJJ3zRp01sc2HMm1s+J6b5U2+0bnLavkNxCW/5Rgc/iGTWIIyIbpmMzJ5KR7QCGrRpg6Maji+d0tslvzMp/LNOm4OYvbW+XDL6TzGCxG3UqVCbjsoLHUU1AbXi5cflE1lxQ0ZBfIm2ybbxruiXksX3e4vfZOX8zlH2U3YZjn26oy5VHP/AB+sRiMTrYHQ2JNrndnulf2DiuwQf+5U56vUv5xpnDdcZ7Odidb2IuuVjMv2q5RqNS9+26Gy37FQ7JuCbHtlDu+GPfFDK29QRn+HP1lP2uFqUnQG1xtKchmb5+PpKkjRBGypJvlsuQLXByvY6Z+Gc45BBDZ3uCCMjcdq/wDaRr+YTK9m+0/eUkqW7Tdmoptk9rOBbTMW6gc5Yo4gX52BB1uBu6jXmIVyglj7sk9nNTc3KHIHmQeye47wJadFIsS2/MZ5HutKGPFwHp5OuakG1+Kk/hIyN92yfuzuGxm2gcEC/LQjI7Q+4wNwRxB0ksFnEYfYPvKRNyO2hItUAHPRwN+/Q5WIZhPaSMoZTkcrb77weB698rs+7a8u7PhM7GU3VjUpm+Y20FwX3Ai5ycde0Mr6Wo28Uiv2TcLkQRu5jgeYlMVShtUII0V8gOQe3w9dDyyBqYb2grBSApHG9iOGum8R7V1YEbJ0NwbHrv0gXEVCf2OXh+04mE2M6ZBG9DmvcBmp8Ry3zDdnpm6BmTel7lR/ZxGd7eHCXsPjA6h6b3B4Wv3cO+ZF81Kb5EbLDcdevAjmJWrYZb7QcBtzL2T3kHMb7EEcpXxdRXA2hcg5EXVweRGhtwldcU6HMl142tUHVRk/Vc9MoaXvtTL/ANQbS/iXUdV7t3hHq6OLqdoaZkEdDu7iJQXFhxcEMCN2fjxinUXLKSrcVyPeNGHIg2mmWj9n4Mw5XY2/8pJn/aqvBDz7Qv3Z2kgcxGLRR7xj2VJOQJO0Ljv1sOZzyiFq1KpBqXRb/CrZnkWGg5DxkkmWl5a6oAijZ3AAZAQKuJAGp8tOkkksSsz7a1QAqzLSsbFTss4BsbEZqt8txPLWadKuEQDZAFrBRkMst2gkkioie0Nu4J8xp03cpnNjWrOaaN2RYO9rMFfRUvoTY52ytxtJJEF2pi1BFJV2UQWXeAN9t9z6HjGrWzBO+xHkoPiTJJKKXtDHFQEpGzudlGO4lSxc/Km01t7NOYWoaYCAZKLW1Ol2ud+dj1kkgOo40kBRrZRoNwtr+ceELG48orsb2UEnfcUxf6m0kkDNwx2FprUa42Rew1YdpjyuxYy0ccwSwGgzz3cNOskky07h/aV1JK6i9uRtaVvZGMshNtXrd2zWe/nJJNMtOpiTZbD8QPcbb+n0mfiKgddjaZTa1wTfgc995JJIKPsHFbD1aJuyk7YFzch9oEEk55qxz4zVq17anI5g579G65G/+ZJJqh1GsCL/AMy1GfeR3jfM2tVanVDIexVJBFz2XUXJA5r5cSZJIFz7U+mV/pY799jl+99YBx2e/W3S+mWeWtxy8ZJIKONVlLOBYa1FFrc3XibXJB1AI1tGUMbsC973ta17WO6xkkgM+3NqBuuM/GAAXPvaICOcmBJ2XI/EBoeY+skkAsJ7UWptZEMuTKQDY789OOksVDYcjxzF+m7unZIooVaXaLo2y2XGxO7aG/TXWCntJgwR12XIuLG4IG8Hv32MkkQWWq8z9JJJIH//2Q==');
+        }
+        .menu{
+            background-color: rgb(231, 225, 231);
+            overflow:hidden;
+        }
+        .menu a{
+            float: left;
+            color: #450303;
+            text-align:right;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .menu a {
+            background-color: #ddd;
+            color: black;
+        }
+        .hero image{
+            background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+            height:50%;
+            background-position:center;
+            background-repeat:no-repeat;
+            background-size: cover;
+            position:relative;
+        }
+        .hero-text{
+            text-align:start;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            color: black;
+        }
+        .hero-text button{
+            border:none;
+            outline:0;
+            display:inline-block;
+            padding: 10px 25px;
+            color: black;
+            background-color:rgb(95, 114, 129);
+            text-align: center;
+            cursor: pointer;
+        }
+
+    </style>
+    <script src="portfolio"> </script>
+    <body>
+        <head>
+            <div class="hero-image">
+                <div class="hero-text">
+                    <h1 style="font-size: 50px">I am Rutuja Kupade</h1>
+                    <p>I am Student of Third Year B.Tech in Computer Science at SVERI'S College of Engineering,Pandharpur.</p>
+                    <button>Click for next</button>
+                </div>
+            </div>
+            <nav>
+                <div class="logo">
+                    <b><i>PORTFOLIO</i></b>
+                </div>
+                <div class="menu">
+                    <a class="#about">About</a>
+                    <a class="#achievements">Achievements</a>
+                    <a class="#contact">Contact</a>
+                    <a href="#About me">Click here</a>
+                </div>
+            </nav>
+            
+            <div class="About me">
+                <h1>About Me...</h1>
+                <p>Hello...I am Rutuja.<br>I am Third year student of B.Tech in CSE Branch at SVERI'S College of Engineering,Pandharpur.<br>
+                    Always finding ways for improving myself.<br>I am good at leadership,C,Java and Front end web development.</p>
+            </div>
+            
+        </head>
+  </body>
+  
+
+</html>
